@@ -18,8 +18,10 @@ public class DelfiCommercialTest {
     @Test
     public void firstTest() {
 
+
+
         WebDriver driver = new ChromeDriver();
-        driver.manage().window().maximize();
+         driver.manage().window().maximize();
         driver.get(HOME_PAGE);
 
         List<WebElement> listOfElements = new ArrayList<WebElement>();

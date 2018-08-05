@@ -8,9 +8,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 public class Ishop {
 
@@ -18,13 +21,9 @@ public class Ishop {
     private final By WOMAN = By.xpath("//*[@title=\"Women\"]");
     private final By DRESSES = By.xpath("//*[@for=\"layered_category_8\"]");
     private final By ORANGE = By.xpath("//*[@name=\"layered_id_attribute_group_13\"]");
-    private final By ADD1 = By.xpath(".//*[@data-id-product=\"3\"]/span");
-    private final By ADD2 = By.xpath(".//*[@data-id-product=\"5\"]/span");
-
     private final By CONTINUESHOPPING = By.xpath("//*[@class=\"button-container\"]/span");
     private final By PROCEEDTOCHECKOUT = By.xpath("//*[@title=\"Proceed to checkout\"]");
     private final By ADDTOCART = By.xpath("//*[@title=\"Add to cart\"]/span");
-
     private final By TOTALPRICEWITHOUTTAX = By.xpath("//*[@id=\"total_price_without_tax\"]");
     private final By TOTALPRICE = By.xpath("//*[@id=\"total_price_container\"]/span");
 
@@ -41,6 +40,8 @@ public class Ishop {
         actions.sendKeys(Keys.PAGE_DOWN).perform();
 
         Thread.sleep(5000);
+       // driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        // WebElement dynamicElement = (new WebDriverWait(driver, 20)).until(ExpectedConditions.presenceOfElementLocated(ADDTOCART));
         driver.findElement(ORANGE).click();
 
         List<WebElement> listOfElements = new ArrayList<WebElement>();
