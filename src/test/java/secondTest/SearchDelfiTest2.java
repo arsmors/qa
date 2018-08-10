@@ -13,7 +13,7 @@ public class SearchDelfiTest2 {
     private final String HOME_PAGE = "http://rus.delfi.lv";
 
     @Test
-    public void checkArticleTitle() {
+    public void checkArticleTitle() throws InterruptedException {
         baseFunc.openPage(HOME_PAGE);
 
         HomePage homePage = new HomePage(baseFunc);
@@ -22,6 +22,11 @@ public class SearchDelfiTest2 {
 
         SearchPage searchPage = new SearchPage(baseFunc);
         searchPage.sort();
-        searchPage.clickPageNumber(5);
+
+        Thread.sleep(5000);
+        searchPage.clickPageNumber(4);
+        Thread.sleep(5000);
+        searchPage.datesCheck();
+
     }
 }
