@@ -34,5 +34,7 @@ public class BaseFunc {
         Assert.assertFalse("Element not found", getElements(locator).isEmpty());
         return driver.findElement(locator);
     }
+
+
 }
 

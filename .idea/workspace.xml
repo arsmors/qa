@@ -3,9 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="dbb088b8-b31f-45ff-a564-33a2b16d7546" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/firstTest/pages/BaseFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/firstTest/pages/BaseFunc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/secondTest/SearchDelfiTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/secondTest/SearchDelfiTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/secondTest/pages/BaseFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/secondTest/pages/BaseFunc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/secondTest/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/secondTest/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/secondTest/pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/secondTest/pages/SearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/secondTest/SearchDelfiTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/secondTest/SearchDelfiTest2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/secondTest/pages/BaseFunc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/secondTest/pages/BaseFunc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/secondTest/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/secondTest/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/secondTest/pages/SearchPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/secondTest/pages/SearchPage.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,70 +24,44 @@
     <session id="512049019">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.1" value="5" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.2" value="2" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1843" />
+          <entry key="java" value="2024" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1843" />
+          <entry key="JAVA" value="2024" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="36" />
-          <entry key="java" value="49" />
+          <entry key="class" value="38" />
+          <entry key="java" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="36" />
-          <entry key="JAVA" value="49" />
+          <entry key="CLASS" value="38" />
+          <entry key="JAVA" value="64" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/secondTest/SearchDelfiTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="40" column="24" lean-forward="true" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/firstTest/TestNew.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="20" column="102" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="102" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/firstTest/Article.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/secondTest/SearchDelfiTest2.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/secondTest/pages/SearchPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="234">
+              <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,10 +70,62 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/firstTest/ForTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/secondTest/SearchDelfiTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="420">
+              <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/secondTest/SearchDelfiTest2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/firstTest/pages/BaseFunc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/secondTest/pages/BaseFunc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/firstTest/pages/HomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+              <folding>
+                <element signature="e#537#538#0" expanded="true" />
+                <element signature="e#579#580#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/secondTest/pages/HomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -101,8 +133,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/firstTest/Ishop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="50" column="21" lean-forward="true" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+            <state relative-caret-position="555">
+              <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -117,31 +149,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/firstTest/Javaguru.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/firstTest/PageObjectTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/firstTest/Ishop2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="27" column="4" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="69" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="285">
+              <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -179,21 +190,21 @@
         <option value="$PROJECT_DIR$/src/test/java/firstTest/pageObjectTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/firstTest/pages/CommentPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/firstTest/pages/ArticlePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/firstTest/pages/BaseFunc.java" />
         <option value="$PROJECT_DIR$/src/test/java/firstTest/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/firstTest/PageObjectTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
         <option value="$PROJECT_DIR$/src/test/java/firstTest/DelfiCommercialTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/firstTest/Ishop2.java" />
-        <option value="$PROJECT_DIR$/src/test/java/secondTest/pages/BaseFunc.java" />
         <option value="$PROJECT_DIR$/src/test/java/Cucumber/StepDefs.java" />
         <option value="$PROJECT_DIR$/src/test/resources/Delfi.feature" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/cucumber/StepDefs.java" />
         <option value="$PROJECT_DIR$/src/test/java/secondTest/SearchDelfiTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/secondTest/pages/SearchPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/secondTest/pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/firstTest/pages/BaseFunc.java" />
         <option value="$PROJECT_DIR$/src/test/java/secondTest/SearchDelfiTest2.java" />
+        <option value="$PROJECT_DIR$/src/test/java/secondTest/pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/secondTest/pages/BaseFunc.java" />
+        <option value="$PROJECT_DIR$/src/test/java/secondTest/pages/SearchPage.java" />
       </list>
     </option>
   </component>
@@ -238,9 +249,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -280,7 +290,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="firstTest" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qa2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="secondTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qa2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="secondTest" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="qa2" type="b2602c69:ProjectViewProjectNode" />
@@ -464,14 +492,6 @@
               <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
               <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
               <item name="junit" type="462c0819:PsiDirectoryNode" />
-              <item name="runner" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qa2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="junit" type="462c0819:PsiDirectoryNode" />
               <item name="runners" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -531,10 +551,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533911224226" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533913805743" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -565,7 +586,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SearchDelfiTest2.checkArticleTitle">
+  <component name="RunManager" selected="JUnit.SearchDelfiTest2">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -690,8 +711,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SearchDelfiTest2.checkArticleTitle" />
         <item itemvalue="JUnit.SearchDelfiTest2" />
+        <item itemvalue="JUnit.SearchDelfiTest2.checkArticleTitle" />
         <item itemvalue="Cucumber java.Scenario: First Scenario" />
         <item itemvalue="JUnit.PageObjectTest.checkArticleTitle" />
         <item itemvalue="JUnit.SearchDelfiTest.checkSearch" />
@@ -712,34 +733,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SearchDelfiTest2_checkArticleTitle - 2018.08.10 at 16h 44m 57s.xml">
-      <configuration name="SearchDelfiTest2.checkArticleTitle" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SearchDelfiTest2_checkArticleTitle - 2018.08.10 at 16h 47m 14s.xml">
-      <configuration name="SearchDelfiTest2.checkArticleTitle" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SearchDelfiTest2 - 2018.08.10 at 16h 49m 32s.xml">
-      <configuration name="SearchDelfiTest2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SearchDelfiTest2 - 2018.08.10 at 16h 51m 35s.xml">
-      <configuration name="SearchDelfiTest2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SearchDelfiTest2 - 2018.08.10 at 16h 57m 07s.xml">
-      <configuration name="SearchDelfiTest2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SearchDelfiTest2 - 2018.08.10 at 16h 58m 47s.xml">
-      <configuration name="SearchDelfiTest2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SearchDelfiTest2 - 2018.08.10 at 17h 02m 15s.xml">
-      <configuration name="SearchDelfiTest2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SearchDelfiTest2 - 2018.08.10 at 17h 04m 55s.xml">
-      <configuration name="SearchDelfiTest2" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SearchDelfiTest2 - 2018.08.10 at 17h 07m 03s.xml">
       <configuration name="SearchDelfiTest2" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SearchDelfiTest2_checkArticleTitle - 2018.08.10 at 17h 23m 24s.xml">
+      <configuration name="SearchDelfiTest2.checkArticleTitle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchDelfiTest2_checkArticleTitle - 2018.08.10 at 17h 28m 03s.xml">
+      <configuration name="SearchDelfiTest2.checkArticleTitle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchDelfiTest2_checkArticleTitle - 2018.08.10 at 17h 43m 54s.xml">
+      <configuration name="SearchDelfiTest2.checkArticleTitle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchDelfiTest2_checkArticleTitle - 2018.08.10 at 17h 45m 10s.xml">
+      <configuration name="SearchDelfiTest2.checkArticleTitle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchDelfiTest2_checkArticleTitle - 2018.08.10 at 17h 46m 31s.xml">
+      <configuration name="SearchDelfiTest2.checkArticleTitle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchDelfiTest2_checkArticleTitle - 2018.08.10 at 17h 48m 05s.xml">
+      <configuration name="SearchDelfiTest2.checkArticleTitle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchDelfiTest2_checkArticleTitle - 2018.08.10 at 17h 48m 39s.xml">
+      <configuration name="SearchDelfiTest2.checkArticleTitle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchDelfiTest2_checkArticleTitle - 2018.08.10 at 17h 49m 16s.xml">
+      <configuration name="SearchDelfiTest2.checkArticleTitle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchDelfiTest2_checkArticleTitle - 2018.08.10 at 18h 00m 57s.xml">
       <configuration name="SearchDelfiTest2.checkArticleTitle" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -747,7 +768,7 @@
     <frame x="89" y="47" width="1170" height="715" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29166666" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30230495" />
       <window_info id="Structure" order="1" weight="0.24937238" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -756,7 +777,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905295" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4964539" visible="true" weight="0.38041735" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4964539" visible="true" weight="0.38041735" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3964687" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -960,13 +981,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/firstTest/pages/ArticlePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="65" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/jdk/internal/util/Preconditions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -992,14 +1006,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="226" column="16" selection-start-line="226" selection-start-column="16" selection-end-line="226" selection-end-column="16" />
-          <folding>
-            <element signature="e#2111#2112#0" expanded="true" />
-            <element signature="e#2155#2156#0" expanded="true" />
-            <element signature="e#5951#6086#0" expanded="true" />
-            <element signature="e#6085#6086#0" expanded="true" />
-            <element signature="e#6484#6648#0" expanded="true" />
-            <element signature="e#6647#6648#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1014,10 +1020,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="55">
           <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#870#1063#0" expanded="true" />
-            <element signature="e#1062#1063#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1035,106 +1037,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar!/org/openqa/selenium/WebDriver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/firstTest/pages/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/firstTest/pages/BaseFunc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/secondTest/pages/SearchPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="57" column="13" lean-forward="true" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1422#1434#0" expanded="true" />
-            <element signature="e#1552#1564#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/firstTest/pages/CommentPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/secondTest/pages/BaseFunc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/secondTest/pages/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="11" column="69" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/firstTest/DelfiCommercialTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="15" column="83" selection-start-line="15" selection-start-column="83" selection-end-line="15" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/firstTest/ForTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/firstTest/Ishop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="50" column="21" lean-forward="true" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/firstTest/PageObjectTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/firstTest/MainPageOpenTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/firstTest/Javaguru.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/secondTest/SearchDelfiTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="40" column="24" lean-forward="true" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1145,6 +1051,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/firstTest/pages/ArticlePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="65" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/firstTest/pages/CommentPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/firstTest/Article.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1152,20 +1072,108 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/firstTest/DelfiCommercialTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="15" column="83" selection-start-line="15" selection-start-column="83" selection-end-line="15" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/firstTest/Javaguru.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/firstTest/Ishop2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="27" column="4" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="69" />
+        <state relative-caret-position="270">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar!/org/openqa/selenium/WebDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/secondTest/SearchDelfiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/firstTest/pages/BaseFunc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/secondTest/pages/BaseFunc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/firstTest/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <folding>
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/secondTest/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/firstTest/Ishop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/firstTest/MainPageOpenTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/firstTest/PageObjectTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/secondTest/SearchDelfiTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/secondTest/SearchDelfiTest2.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/secondTest/pages/SearchPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="234">
+          <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

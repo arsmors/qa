@@ -16,7 +16,7 @@ public class SearchPage {
     private final By SORT_BUTTON = By.xpath("//*[@class='gsc-selected-option']");
     private final By SORT_DATE = By.xpath("//*[@class = \"gsc-option-menu-item\"]");
     private final By PAGES = By.xpath("//*[@class = \"gsc-cursor-page\"]");
-    private final By DATES_CHECK = By.xpath("//*[@class = \"gs-bidi-start-align gs-snippet\"]");
+    public final By DATES_CHECK = By.xpath("//*[@class = \"gs-bidi-start-align gs-snippet\"]");
 
     BaseFunc baseFunc;
 
@@ -41,7 +41,6 @@ public class SearchPage {
         return separatedDate;
     }
 
-
     public void datesCheck() {
         List<WebElement> listOfElements2 = new ArrayList<WebElement>();
         listOfElements2 = baseFunc.getElements(DATES_CHECK);
@@ -49,9 +48,6 @@ public class SearchPage {
         all_elements.addAll(listOfElements2);
 
         for (int i = 0; i < all_elements.size() - 1; i++) {
-
-            //         System.out.println(parseInt(all_elements.get(i).getText().substring(0,2).replace(" ","")));
-
             if (separateDate(all_elements, i) > separateDate(all_elements, i + 1)) {
                 //          System.out.println("Current date is bigger than the next");
                 break;

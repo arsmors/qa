@@ -4,20 +4,19 @@ import firstTest.Ishop2;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.Assert;
+import org.openqa.selenium.By;
 import secondTest.pages.BaseFunc;
 import org.junit.Test;
 import secondTest.pages.HomePage;
 import secondTest.pages.SearchPage;
 
-import static com.sun.xml.internal.ws.spi.db.BindingContextFactory.LOGGER;
 
 
 public class SearchDelfiTest2 {
 
     BaseFunc baseFunc = new BaseFunc();
-
     private final String HOME_PAGE = "http://rus.delfi.lv";
-
+    private final By DATES_CHECK = By.xpath("//*[@class = \"gs-bidi-start-align gs-snippet\"]");
     private final Logger LOGGER = LogManager.getLogger(SearchDelfiTest2.class);
 
     @Test
