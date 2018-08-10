@@ -10,7 +10,6 @@ import org.openqa.selenium.interactions.Actions;
 public class HomePage {
     WebElement driver;
     private final Logger LOGGER = LogManager.getLogger(Ishop2.class);
-
     private final By SEARCH_FIELD = By.xpath("//*[@class='headerSearchInput']");
     private final By SEARCH_FIELD2 = By.name("q");
     private final By SEARCH_FIELD_SEND = By.xpath("//*[@class='headerSearchInputBtn']");

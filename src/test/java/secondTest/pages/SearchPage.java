@@ -10,6 +10,8 @@ import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import static java.lang.Integer.parseInt;
+
 public class SearchPage {
     private final By SORT_BUTTON = By.xpath("//*[@class='gsc-selected-option']");
     private final By SORT_DATE = By.xpath("//*[@class = \"gsc-option-menu-item\"]");
@@ -34,39 +36,26 @@ public class SearchPage {
         return listOfElements.get(id);
     }
 
+    public int separateDate(List<WebElement> list, int i) {
+        int separatedDate = parseInt(list.get(i).getText().substring(0, 2).replace(" ", ""));
+        return separatedDate;
+    }
+
+
     public void datesCheck() {
         List<WebElement> listOfElements2 = new ArrayList<WebElement>();
         listOfElements2 = baseFunc.getElements(DATES_CHECK);
-        List<String> all_elements = new ArrayList<String>();
+        List<WebElement> all_elements = new ArrayList<WebElement>();
+        all_elements.addAll(listOfElements2);
 
-        for (int i = 0; i < listOfElements2.size(); i++) {
-            all_elements.add(listOfElements2.get(i).getText().substring(0, 2));
-//            listOfElements2.get(i).getText();
-//            listOfElements2.get(i+1).getText();
-//            all_elements.get(i);
-//            all_elements.get(i+1);
-            System.out.println(all_elements.get(i));
+        for (int i = 0; i < all_elements.size() - 1; i++) {
 
+            //         System.out.println(parseInt(all_elements.get(i).getText().substring(0,2).replace(" ","")));
 
-////            int position1 = Integer.parseInt(all_elements.get(i));
-////            int position2 = Integer.parseInt(all_elements.get(i+1));
-//            System.out.println();
-
-
-            //   for (WebElement e : listOfElements2) {
-            // all_elements.add(e.getText().substring(0, 2));
-            //    listOfElements2.get(e).getText();
-            //     listOfElements2.get(e+1).getText();
-            //      int position2 = Integer.parseInt(all_elements.get(1));
-            //      System.out.println(position1);
-            //    System.out.println(position2);
+            if (separateDate(all_elements, i) > separateDate(all_elements, i + 1)) {
+                //          System.out.println("Current date is bigger than the next");
+                break;
+            }
         }
     }
 }
-
-
-//        for (int i = 0; i < listOfElements2.size(); i++) {
-//            String aa = listOfElements2.get(i).getText();
-//            i++;
-//
-//        }
