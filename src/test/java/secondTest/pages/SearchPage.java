@@ -1,14 +1,9 @@
 package secondTest.pages;
 
-import cucumber.api.java.sl.In;
-import cucumber.api.java8.Da;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
-import java.util.stream.Collectors;
 
 import static java.lang.Integer.parseInt;
 
