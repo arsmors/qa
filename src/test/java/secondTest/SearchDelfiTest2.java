@@ -34,6 +34,5 @@ public class SearchDelfiTest2 {
         LOGGER.info("Verifying results are sorted by date");
         Thread.sleep(5000);
         searchPage.datesCheck();
-
     }
 }
