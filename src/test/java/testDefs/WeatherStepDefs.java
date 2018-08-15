@@ -42,4 +42,36 @@ public class WeatherStepDefs {
     public void check_deg(Double deg) {
         assertEquals("Wrong deg", deg, response.getWind().getDeg());
     }
+
+
+    @When("we getting main data from server")
+    public void get_main() {
+        response = weatherRequester.getWeather();
+    }
+
+    @Then("temp is (.*)")
+    public void check_temp(BigDecimal temp) {
+        assertEquals("Wrong temp", temp, response.getMain().getTemp());
+    }
+
+    @Then("pressure is (.*)")
+    public void check_pressure(Double pressure) {
+        assertEquals("Wrong pressure", pressure, response.getMain().getPressure());
+    }
+
+    @Then("humidity is (.*)")
+    public void check_humidity(Double humidity) {
+        assertEquals("Wrong humidity", humidity, response.getMain().getHumidity());
+    }
+
+    @Then("temp_min is (.*)")
+    public void check_temp_min(BigDecimal temp_min) {
+        assertEquals("Wrong temp_min", temp_min, response.getMain().getTemp_min());
+    }
+
+    @Then("temp_max is (.*)")
+    public void check_temp_max(BigDecimal temp_max) {
+        assertEquals("Wrong temp_max", temp_max, response.getMain().getTemp_max());
+    }
+
 }
