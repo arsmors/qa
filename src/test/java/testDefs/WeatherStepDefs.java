@@ -26,4 +26,20 @@ public class WeatherStepDefs {
     public void check_lat(BigDecimal lat) {
         assertEquals("Wrong LAT", lat, response.getCoord().getLat());
     }
+
+
+    @When("we getting wind data from server")
+    public void get_wind() {
+        response = weatherRequester.getWeather();
+    }
+
+    @Then("speed is (.*)")
+    public void check_speed(BigDecimal speed) {
+        assertEquals("Wrong speed", speed, response.getWind().getSpeed());
+    }
+
+    @Then("deg is (.*)")
+    public void check_deg(Double deg) {
+        assertEquals("Wrong deg", deg, response.getWind().getDeg());
+    }
 }
