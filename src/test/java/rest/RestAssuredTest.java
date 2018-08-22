@@ -56,6 +56,7 @@ public class RestAssuredTest {
 
     @Test
     public void testMessagesList() {
+        // messages list
         int messageId = given().header("Authorization", token)
                 .when().get("http://preem.strsqr.com/api/messages?limit=20")
                 .then()
@@ -64,31 +65,28 @@ public class RestAssuredTest {
                 .body("data[1].id", is(5))
                 .extract().body().jsonPath().getInt("data[1].id");
 
+        // handle invitation, accept
         given().header("Authorization", token)
                 .formParam("action", "accept")
                 .when().post("http://preem.strsqr.com/api/messages/{id}/invitation", messageId)
                 .then()
                 .statusCode(200)
                 .body("data.message", is("You will attend"));
-    }
 
-    @Test
-    public void testMessagesCounter() {
+        // handle invitation, decline
+        given().header("Authorization", token)
+                .formParam("action", "decline")
+                .when().post("http://preem.strsqr.com/api/messages/{id}/invitation", messageId)
+                .then()
+                .statusCode(200)
+                .body("data.message", is("You will not attend"));
 
-    }
-
-    @Test
-    public void testMessagesRead() {
-
-    }
-
-    @Test
-    public void testMessagesHandleInvitation() {
-
-    }
-
-    @Test
-    public void testMessagesCommentInvitation() {
+        // messages read
+        given().header("Authorization", token)
+                .when().post("http://preem.strsqr.com/api/messages/read")
+                .then()
+                .statusCode(200)
+                .body("data.message", is("Messages are read"));
 
     }
 
