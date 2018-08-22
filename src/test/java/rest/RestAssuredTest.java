@@ -50,6 +50,11 @@ public class RestAssuredTest {
     }
 
     @Test
+    public void testProfileUpdate() {
+    }
+
+
+    @Test
     public void testMessagesList() {
         int messageId = given().header("Authorization", token)
                 .when().get("http://preem.strsqr.com/api/messages?limit=20")
@@ -65,6 +70,26 @@ public class RestAssuredTest {
                 .then()
                 .statusCode(200)
                 .body("data.message", is("You will attend"));
+    }
+
+    @Test
+    public void testMessagesCounter() {
+
+    }
+
+    @Test
+    public void testMessagesRead() {
+
+    }
+
+    @Test
+    public void testMessagesHandleInvitation() {
+
+    }
+
+    @Test
+    public void testMessagesCommentInvitation() {
+
     }
 
     @Test
@@ -105,15 +130,23 @@ public class RestAssuredTest {
                 .body("data[4].payload.title", is ("Arsens poll 1-2"));
     }
 
-               // .body("data.id", is(Lists.newArrayList(7, 5, 4)))
-               // .body("data[1].id", is(5))
-//                .extract().body().jsonPath().getInt("data[1].id");
-//
-//        given().header("Authorization", token)
-//                .formParam("action", "accept")
-//                .when().post("http://preem.strsqr.com/api/messages/{id}/invitation", messageId)
-//                .then()
-//                .statusCode(200)
-//                .body("data.message", is("You will attend"));
+    @Test
+    public void testNewsHandleVote() {
+    }
 
+    @Test
+    public void testCoursesList() {
+    }
+
+    @Test
+    public void testAwardsList() {
+    }
+
+    @Test
+    public void testDiplomasList() {
+    }
+
+    @Test
+    public void testCertificatesList() {
+    }
 }
