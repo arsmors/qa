@@ -30,7 +30,7 @@ public class RestAssuredTest {
 
     public String getAuthToken() {
         String token = given().formParam("token", "1223d44")
-                .post("http://preem.strsqr.com/api/login")
+                .post("http://api/login")
                 .then()
                 .statusCode(200)
                 .body("status", is(200))
@@ -43,7 +43,7 @@ public class RestAssuredTest {
     @Test
     public void testProfileGet() {
         given().header("Authorization", token)
-                .when().get("http://preem.strsqr.com/api/me")
+                .when().get("http://api/me")
                 .then()
                 .statusCode(200)
                 .body("data.email", is("example@email.com"));
@@ -58,7 +58,7 @@ public class RestAssuredTest {
     public void testMessagesList() {
         // messages list
         int messageId = given().header("Authorization", token)
-                .when().get("http://preem.strsqr.com/api/messages?limit=20")
+                .when().get("http://i/messages?limit=20")
                 .then()
                 .statusCode(200)
                 .body("data.id", is(Lists.newArrayList(7, 5, 4)))
@@ -68,7 +68,7 @@ public class RestAssuredTest {
         // handle invitation, accept
         given().header("Authorization", token)
                 .formParam("action", "accept")
-                .when().post("http://preem.strsqr.com/api/messages/{id}/invitation", messageId)
+                .when().post("http:///api/messages/{id}/invitation", messageId)
                 .then()
                 .statusCode(200)
                 .body("data.message", is("You will attend"));
@@ -76,14 +76,14 @@ public class RestAssuredTest {
         // handle invitation, decline
         given().header("Authorization", token)
                 .formParam("action", "decline")
-                .when().post("http://preem.strsqr.com/api/messages/{id}/invitation", messageId)
+                .when().post("http://i/messages/{id}/invitation", messageId)
                 .then()
                 .statusCode(200)
                 .body("data.message", is("You will not attend"));
 
         // messages read
         given().header("Authorization", token)
-                .when().post("http://preem.strsqr.com/api/messages/read")
+                .when().post("http://ssages/read")
                 .then()
                 .statusCode(200)
                 .body("data.message", is("Messages are read"));
@@ -93,7 +93,7 @@ public class RestAssuredTest {
     @Test
     public void testListProper() {
         ListResponse response = given().header("Authorization", token)
-                .when().get("http://preem.strsqr.com/api/messages?limit=20")
+                .when().get("http:///api/messages?limit=20")
                 .then()
                 .statusCode(200)
                 .body("data.id", is(Lists.newArrayList(7, 5, 4)))
@@ -110,7 +110,7 @@ public class RestAssuredTest {
         for (Message message : messages) {
             given().header("Authorization", token)
                     .formParam("action", "accept")
-                    .when().post("http://preem.strsqr.com/api/messages/{id}/invitation", message.getId())
+                    .when().post("http://.com/api/messages/{id}/invitation", message.getId())
                     .then()
                     .statusCode(200)
                     .body("data.message", is("You will attend"));
@@ -121,7 +121,7 @@ public class RestAssuredTest {
     @Test
     public void testNewsList() {
         given().header("Authorization", token)
-                .when().get("http://preem.strsqr.com/api/news?=limit=20")
+                .when().get("http://om/api/news?=limit=20")
                 .then()
                 .statusCode(200)
                 .body("data[4].payload.id", is(10))
